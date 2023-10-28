@@ -24,7 +24,7 @@ yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
 </code></pre>
 
-Software	Modules
+## Software	Modules
 PHP 8.0.x
 PHP 8.1.x	BCMath, Ctype, Fileinfo, JSON, Mbstring, OpenSSL, PDO, Tokenizer, XML, GD, cURL
 Apache 2+	mod_rewrite
