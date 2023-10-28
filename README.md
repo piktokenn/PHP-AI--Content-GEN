@@ -33,7 +33,7 @@ MariaDB 10.3.17+
 OpenAI	gpt-3.5-turbo or gpt-4, DALL·E, Whisper
 
 
-Cron job
+## Cron job
 The software requires a cron job task to be set up on your server in order to automate some of its functions.
 
 Go to Admin Settings Cron job.
@@ -43,7 +43,7 @@ https://forum.aapanel.com/d/273-how-to-run-a-php-file-with-cron-job/5
 
 
 
-Type of cron job.
+## Type of cron job.
 
 Execution cycle
 
@@ -51,9 +51,12 @@ Every Min
 
 Script content
 
+<pre><code>
+
 "wget -q -O /dev/null http://your.domain/cronjob?key=K0TQlmXNm0vEYGbC3pLDAqSmCDW0bgpT"
 
-.
+.</code></pre>
+
 
 ![Screenshot from 2023-09-26 14-12-09](https://github.com/piktokenn/PHP-AI--Content-GEN/assets/120285373/27979b48-4aa5-42e3-8081-ef4702417643)
 
