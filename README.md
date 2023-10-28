@@ -7,11 +7,22 @@ Assign full privileges to your database username.
 |
 
 
-aaPanel installation
+## AAPanel installation
 
-Centos  yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel
+<pre><code>
+#Centos
 
-Ubuntu/Deepin    wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
+yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel
+
+</code></pre>
+
+
+
+<pre><code>
+# Ubuntu/Deepin 
+
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
+</code></pre>
 
 Software	Modules
 PHP 8.0.x
